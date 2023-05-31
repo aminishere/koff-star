@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  position: relative;
+  max-width: 80px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+  color: #333;
+  font-weight: 400;
+  margin-left: 40px;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.content {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.textbox {
+  position: relative;
+  max-width: 600px;
+}
+
+h2 {
+  color: #333;
+  font-size: 80px;
+  line-height: 100px;
+  font-weight: 700;
+}
+
+span {
+  color: #017143;
+  font-size: 1.2cm;
+  font-weight: 900;
+}
+
+p {
+  color: #333;
+}
+
+.content .textbox a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 8px 20px;
+  background: #017143;
+  color: #fff;
+  border-radius: 40px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+
+.content .imgbox {
+  width: 600px;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 50px;
+  margin-top: 50px;
+}
+
+.content.imgbox img {
+  max-width: 340px;
+}
+
+.thumb {
+  position: absolute;
+  left: 50%;
+  bottom: 50px;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.thumb li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.thumb li:hover {
+  transform: translateY(-30px);
+}
+
+.thumb li img {
+  max-width: 50px;
+}
+
+.sci {
+  font-size: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sci li a {
+  display: inline-block;
+  margin: 5px 0;
+  transform: scale(0.6);
+  color: #fff;
+  font-size: 50px;
+}
+
+.circle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #017143;
+  -webkit-clip-path: circle(800px at right 1100px);
+          clip-path: circle(800px at right 1100px);
+}
+
+.starbucks {
+  max-width: 400px;
+  height: auto;
+}/*# sourceMappingURL=style.css.map */
